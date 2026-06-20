@@ -42,6 +42,14 @@ img.education-icon {
     margin: 0 auto;
 }
 
+img.hero-img-teacher {
+    display: block;
+    width: 50rem;
+    height: auto;
+    text-align: center;
+    /* width: 50%; */
+}
+
 
 .book-button.primary-btn {
     background-color: var(--base-shade-1);
@@ -449,6 +457,16 @@ footer p {
     
 }
 
+.teacher-image {
+    /* margin: 0 auto; */
+    text-align: center;
+    margin: 0 auto;
+    display: flex;
+    padding: 30px;
+    align-items: center;
+    justify-content: center;
+}
+
   
 
 @media only screen and (max-width: 991px) {
@@ -592,8 +610,24 @@ footer p {
     height: 6rem;
     width: 6rem;
   }
+
+  img.hero-img-teacher {
+    display: block;
+    width: 50rem;
+    height: auto;
+    text-align: center;
+    /* width: 50%; */
+}
 }
 @media only screen and (max-width: 575px) {
+
+  .teacher-image img.hero-img-teacher {
+    display: block;
+    width: 37rem;
+    height: auto;
+    text-align: center;
+    /* width: 50%; */
+}
   html {
     font-size: 46.87%;
   }
