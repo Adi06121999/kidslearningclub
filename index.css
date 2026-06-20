@@ -36,7 +36,7 @@ html {
 /*------ Utility Classes ------*/
 
 img.education-icon {
-    height: 150px;
+    height: 200px;
     /* text-align: center; */
     /* align-items: center; */
     margin: 0 auto;
@@ -452,6 +452,12 @@ footer p {
   
 
 @media only screen and (max-width: 991px) {
+
+  #home .hero-img img {
+    display: block;
+    width: 40rem;
+    height: auto;
+}
 
   
   html {
